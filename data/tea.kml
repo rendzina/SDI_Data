@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tea.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ccffffff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>C:/iow/bike/images/food.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>000055ff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ccffffff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>C:/iow/bike/images/food.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>000055ff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark id="MrsJonesTeaDepot">
+		<name>Mrs Jones Tea Depot</name>
+		<description><![CDATA[<img style="max-width:500px;" src="file:///C:/iow/bike/images/tea_depot.jpg">]]></description>
+		<LookAt>
+			<longitude>-1.290795487782633</longitude>
+			<latitude>50.68571314583346</latitude>
+			<altitude>0</altitude>
+			<heading>0.8820731447201691</heading>
+			<tilt>0</tilt>
+			<range>39334.28345692103</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.292791682313776,50.7580815828271,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
